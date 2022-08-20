@@ -1,0 +1,15 @@
+name: 'Serverless with Python Requirements and WSGI'
+description: 'Javascript action that runs a Serverless deploy using the serverless-python-requirements and serverless-wsgi plugins.'
+inputs:
+  args:
+    default: ''
+    description: 'Additional arguments you want to set'
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'fast-forward'
+  color: 'red'
